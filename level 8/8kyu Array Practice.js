@@ -21,3 +21,13 @@ function betterThanAverage(classPoints,yourPoints){
   }
   
   
+// Solution with a for.each
+  
+  function betterThanAverage(classPoints,yourPoints){
+    let classAverage = 0
+    classPoints.forEach( score => classAverage += score)
+  
+  classAverage = classAverage/classPoints.length
+  return yourPoints > classAverage
+  }
+  
