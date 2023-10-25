@@ -10,4 +10,4 @@ function lovefunc(flower1, flower2){
 
 
 
-//   one flower must be even and one flower must be off. when adding a even number to a odd number if you then % 2 the remander will always be 1
+//   one flower must be even and one flower must be odd. when adding a even number to a odd number if you then % 2 the remander will always be 1
