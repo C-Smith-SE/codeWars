@@ -41,4 +41,24 @@ function MakeCharacter(charName,charSex,charHeight,charColor){
     }
 }
 
-let Evin = new MakeCharacter('ryu','male','5 2"','white')
+let ryu = new MakeCharacter('ryu','male','5 2"','white')
+
+
+
+// create a tony hawk pro skater constructor that makes skating game characters with 4 properties and 3 methods.
+
+function MakeSkateBoarder(charGender,charHeight,charWeight,charBoard){
+    this.gender = charGender
+    this.heigh = charHeight
+    this.weight = charWeight
+    this.board = charBoard
+    this.specialMove = function(){
+        alert(`I just landed my special!`)
+    }
+    this.ollie = function(){
+        alert('do a ollie')
+    }
+    this.kickflip = function(){
+        alert('do a kickflip')
+    }
+} let newSkater1 = new MakeSkateBoarder('male','5 "2','150ibs','newboard')
