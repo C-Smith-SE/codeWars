@@ -13,3 +13,38 @@ function paperwork(n,m){
       return 0
     } return n * m
 }paperwork(2,2) 
+
+
+
+// You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left.
+
+// Considering these factors, write a function that tells you if it is possible to get to the pump or not.
+
+// Function should return true if it is possible and false if not.
+
+// solution
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return mpg * fuelLeft >= distanceToPump
+}
+
+// Create a function which answers the question "Are you playing banjo?".
+// If your name starts with the letter "R" or lower case "r", you are playing banjo!
+
+// The function takes a name as its only argument, and returns one of the following strings:
+
+// name + " plays banjo" 
+// name + " does not play banjo"
+
+// solution
+
+function areYouPlayingBanjo(name) {
+  if(name[0] == 'R' || name[0] == "r"){
+    return name + " plays banjo"
+  }return name + " does not play banjo"
+ }
+
+ function areYouPlayingBanjo(name) {
+  return name[0].toLowerCase() == "r" ? name + " plays banjo" : name + " does not play banjo"
+}
+
