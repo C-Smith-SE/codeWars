@@ -14,3 +14,31 @@ fetch("https://dog.ceo/api/breeds/image/random")
      .catch(err => {
         console.log(`error ${err}`)
      })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
