@@ -5,7 +5,7 @@
 // solution
 
 function count (string) {  
-    let count = {};
+    let count = {}
     string.split('').forEach(function(s) {
        count[s] ? count[s]++ : count[s] = 1
     })

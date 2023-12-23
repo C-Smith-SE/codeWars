@@ -51,3 +51,14 @@ http.createServer((req, res) => {
         res.end()
     })
 }).listen(8000)
+
+
+
+
+
+
+fucntion houseFour(){
+    setTimeout((resolve,reject) {
+        resolve('the paper has been delivered to house 4')
+    }, 2000)
+}
