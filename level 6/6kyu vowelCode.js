@@ -17,7 +17,7 @@
 
 // solution 
 
-// function encode(string){
+function encode(string){
   let vowelMapping = {'a': 1, 'e': 2, 'i': 3, 'o': 4, 'u': 5}
   return codeStringGivenMapping(string, vowelMapping)
 }
